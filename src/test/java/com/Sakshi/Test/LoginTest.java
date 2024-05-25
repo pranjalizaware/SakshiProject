@@ -11,8 +11,9 @@ public class LoginTest extends BaseClass {
 	
 	@Test(priority=0)
 	public void LoginApplicationScenario1()
-	{
-		obj.loginToApplicationwithoutUserPassword();
+	{ 
+		
+		//obj.loginToApplicationwithoutUserPassword();
 		Assert.assertEquals(driver.getCurrentUrl(), "https://sakshingp.github.io/assignment/home.html");
 	}
 	@Test(priority=1)

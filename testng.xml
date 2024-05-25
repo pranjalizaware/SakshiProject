@@ -3,9 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-		 <class name="com.Amazon.Test.SignUpTest"/>
-      <class name="com.Amazon.Test.SearchProductTest"/>
-       <class name="com.Amazon.Test.AddToCartTest"/>
+      <class name="com.Sakshi.Test.LoginTest"/>
+      <class name="com.Sakshi.Test.AmmountSorting"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

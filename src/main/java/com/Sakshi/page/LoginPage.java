@@ -25,9 +25,9 @@ public class LoginPage {
 	
 	public void loginToApplicationwithoutUserPassword()
 	{
-		/*
-		 * username.sendKeys(" "); password.sendKeys(" ");
-		 */
+		
+		 username.sendKeys(" "); password.sendKeys(" ");
+		 
 		button.click();
 	}
 	

@@ -3,12 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.Amazon.Test.AddToCartTest">
+      <class name="com.Sakshi.Test.LoginTest">
         <methods>
+          <include name="LoginApplicationScenario3"/>
           <include name="launch"/>
-          <include name="AddedToCart"/>
+          <include name="LoginApplicationScenario2"/>
+          <include name="LoginApplicationScenario1"/>
         </methods>
-      </class> <!-- com.Amazon.Test.AddToCartTest -->
+      </class> <!-- com.Sakshi.Test.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
